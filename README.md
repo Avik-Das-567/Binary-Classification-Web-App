@@ -169,21 +169,24 @@ The application evaluates model performance using several metrics.
 
 ### Accuracy:
 Measures the percentage of correctly classified samples.
-```
-Accuracy = Correct Predictions / Total Predictions = (TP + TN) / (TP + TN + FP + FN)
-```
+
+$$
+Accuracy = \frac{Correct\ Predictions}{Total\ Predictions} = \frac{TP + TN}{TP + TN + FP + FN}
+$$
 
 ### Precision:
 Measures how many predicted positives are actually positive.
-```
-Precision = True Positives / Predicted Positives = TP / (TP + FP)
-```
+
+$$
+Precision = \frac{True\ Positives}{Predicted\ Positives} = \frac{TP}{TP + FP}
+$$
 
 ### Recall:
 Measures how many actual positives are correctly predicted.
-```
-Recall = True Positives / Actual Positives = TP / (TP + FN)
-```
+
+$$
+Recall = \frac{True\ Positives}{Actual\ Positives} = \frac{TP}{TP + FN}
+$$
 
 ### Confusion Matrix:
 Displays counts of:
