@@ -65,6 +65,13 @@ The app also displays:
 ### Dataset Visualization:
 Users can optionally view the raw encoded dataset directly inside the application.
 
+## Example Workflow
+1. Select a classifier from the sidebar.
+2. Adjust the hyperparameters.
+3. Select the evaluation metrics to display.
+4. Click **Classify** to train the model.
+5. View performance metrics and plots.
+
 ## Dataset
 
 This project uses the **Mushroom Dataset** from the UCI Machine Learning Repository.
@@ -237,13 +244,13 @@ Binary-Classification-Web-App
 └── README.md
 ```
 
-## Requirements
+## Tech Stack
 
-The application depends on the following libraries:
+- Python
 - Streamlit
+- Scikit-learn
 - Pandas
 - NumPy
-- Scikit-learn
 - Matplotlib
 
 ## Running the Project Locally
