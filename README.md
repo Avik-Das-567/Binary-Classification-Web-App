@@ -247,23 +247,23 @@ The application depends on the following libraries:
 - Matplotlib
 
 ## Running the Project Locally
-**1.** Clone the repository
+**1.** Clone the repository.
 ```
 git clone https://github.com/Avik-Das-567/Binary-Classification-Web-App.git
 ```
-**2.** Navigate to the project directory
+**2.** Navigate to the project directory.
 ```
 cd Binary-Classification-Web-App
 ```
-**3.** Install dependencies
+**3.** Install dependencies.
 ```
 pip install -r requirements.txt
 ```
-**4.** Run the Streamlit application
+**4.** Run the Streamlit application.
 ```
 streamlit run app.py
 ```
-**5.** Open in browser
+**5.** Open in browser.
 
 Streamlit will automatically launch the app at:
 ```
