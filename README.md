@@ -2,7 +2,7 @@
 
 ### Live App: https://binary-classification-webapp.streamlit.app
 
-An interactive **Machine Learning web application** built with **Streamlit** that predicts whether a mushroom is **edible** or **poisonous** using multiple classification algorithms.
+An interactive Machine Learning **web application** built with Streamlit that predicts whether a mushroom is **edible** or **poisonous** using multiple classification algorithms.
 
 The app allows users to:
 - Select different **machine learning classifiers**
@@ -84,13 +84,7 @@ Each sample is labeled as:
 - **Edible**
 - **Poisonous**
 
-All features in the dataset are **categorical**, describing properties such as:
-- Cap shape
-- Cap color
-- Odor
-- Gill size
-- Habitat
-- Spore print color
+The dataset contains categorical features describing mushroom characteristics such as cap shape, odor, gill size, habitat, and spore print color.
 
 ## Data Preprocessing
 
@@ -124,9 +118,7 @@ The app supports three classifiers implemented with **Scikit-learn**.
 
 ### Support Vector Machine (SVM):
 
-A powerful supervised learning algorithm used for classification tasks.
-
-The implementation allows configuration of:
+A powerful supervised learning algorithm used for classification tasks. The implementation allows configuration of:
 - Regularization parameter (`C`)
 - Kernel type (`linear`, `rbf`)
 - Kernel coefficient (`gamma`)
@@ -138,9 +130,7 @@ sklearn.svm.SVC
 
 ### Logistic Regression:
 
-A linear model commonly used for binary classification.
-
-Configurable parameters:
+A linear model commonly used for binary classification. Configurable parameters:
 - Regularization strength (`C`)
 - Maximum training iterations (`max_iter`)
 
@@ -151,9 +141,7 @@ sklearn.linear_model.LogisticRegression
 
 ### Random Forest:
 
-An ensemble learning method that builds multiple decision trees and combines their predictions.
-
-Configurable parameters:
+An ensemble learning method that builds multiple decision trees and combines their predictions. Configurable parameters:
 - Number of trees (`n_estimators`)
 - Maximum tree depth (`max_depth`)
 - Bootstrap sampling (`bootstrap`)
@@ -223,7 +211,7 @@ Displays:
 - Application title
 - Model results
 - Evaluation plots
-- Dataset preview (optional)
+- Dataset preview
 
 ### Sidebar
 Controls the application:
@@ -244,13 +232,7 @@ Binary-Classification-Web-App
 ```
 
 ## Tech Stack
-
-- Python
-- Streamlit
-- Scikit-learn
-- Pandas
-- NumPy
-- Matplotlib
+Python, Streamlit, Scikit-learn, Pandas, NumPy, Matplotlib
 
 ## Running the Project Locally
 **1.** Clone the repository.
