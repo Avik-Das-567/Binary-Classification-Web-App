@@ -123,10 +123,7 @@ A powerful supervised learning algorithm used for classification tasks. The impl
 - Kernel type (`linear`, `rbf`)
 - Kernel coefficient (`gamma`)
 
-Model used:
-```
-sklearn.svm.SVC
-```
+Model used: `sklearn.svm.SVC`
 
 ### Logistic Regression:
 
@@ -134,10 +131,7 @@ A linear model commonly used for binary classification. Configurable parameters:
 - Regularization strength (`C`)
 - Maximum training iterations (`max_iter`)
 
-Model used:
-```
-sklearn.linear_model.LogisticRegression
-```
+Model used: `sklearn.linear_model.LogisticRegression`
 
 ### Random Forest:
 
@@ -146,10 +140,7 @@ An ensemble learning method that builds multiple decision trees and combines the
 - Maximum tree depth (`max_depth`)
 - Bootstrap sampling (`bootstrap`)
 
-Model used:
-```
-sklearn.ensemble.RandomForestClassifier
-```
+Model used: `sklearn.ensemble.RandomForestClassifier`
 
 ## Evaluation Metrics
 
@@ -179,28 +170,19 @@ $$
 ### Confusion Matrix:
 Displays counts of: **True Positives (TP)**, **False Positives (FP)**, **True Negatives (TN)**, and **False Negatives (FN)**.
 
-Implemented using:
-```
-ConfusionMatrixDisplay
-```
+Implemented using: `ConfusionMatrixDisplay`
 
 ### ROC Curve:
 The Receiver Operating Characteristic curve shows the trade-off between:
 - True Positive Rate
 - False Positive Rate
 
-Implemented using:
-```
-RocCurveDisplay
-```
+Implemented using: `RocCurveDisplay`
 
 ### Precision-Recall Curve:
 Visualizes the balance between precision and recall.
 
-Implemented using:
-```
-PrecisionRecallDisplay
-```
+Implemented using: `PrecisionRecallDisplay`
 
 ## Application Interface
 
