@@ -189,11 +189,7 @@ Recall = \frac{True\ Positives}{Actual\ Positives} = \frac{TP}{TP + FN}
 $$
 
 ### Confusion Matrix:
-Displays counts of:
-- True Positives (TP)
-- False Positives (FP)
-- True Negatives (TN)
-- False Negatives (FN)
+Displays counts of: **True Positives (TP)**, **False Positives (FP)**, **True Negatives (TN)**, and **False Negatives (FN)**.
 
 Implemented using:
 ```
