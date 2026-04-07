@@ -1,6 +1,6 @@
-# Binary Classification Web App (Mushroom Classifier)
+# Binary Classification Web App | Mushroom Classifier
 
-### Live App: https://binary-classification-webapp.streamlit.app
+**Live App: https://binary-classification-webapp.streamlit.app**
 
 An interactive Machine Learning **web application** built with Streamlit that predicts whether a mushroom is **edible** or **poisonous** using multiple classification algorithms.
 
